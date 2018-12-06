@@ -1,0 +1,178 @@
+.body {
+    background-color: #a3f7de;
+}
+
+.class {
+    text-decoration: none;
+}
+
+#grid {
+    position: relative;
+
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 27.85714285714286%;
+    padding: 0 0 32.16760145166612% 0;
+    -o-transform: rotate(-60deg) skewY(30deg);
+    -moz-transform: rotate(-60deg) skewY(30deg);
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    background: #bcf2e2;
+}
+#grid li .hexagon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #bcf2e2;
+    -o-transform: skewY(-30deg) rotate(60deg);
+    -moz-transform: skewY(-30deg) rotate(60deg);
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform: skewY(-30deg) rotate(60deg);
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+ }
+
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 27.85714285714286%;
+    padding: 0 0 32.16760145166612% 0;
+    -o-transform: rotate(-60deg) skewY(30deg);
+    -moz-transform: rotate(-60deg) skewY(30deg);
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    background: #bcf2e2;
+    overflow: hidden;
+}
+#grid li {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    width: 27.85714285714286%;
+    padding: 0 0 32.16760145166612% 0;
+    -o-transform: rotate(-60deg) skewY(30deg);
+    -moz-transform: rotate(-60deg) skewY(30deg);
+    -webkit-transform: rotate(-60deg) skewY(30deg);
+    -ms-transform: rotate(-60deg) skewY(30deg);
+    transform: rotate(-60deg) skewY(30deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+#grid li * {
+    visibility: visible;
+}
+
+
+#grid li:nth-child(2) {
+  margin: 0 1%;
+}
+#grid li:nth-child(3n+2) {
+  margin: 0 1%;
+}
+
+#grid li:nth-child(6n+4), #grid li:nth-child(6n+5), #grid li:nth-child(6n+6) {
+    margin-top: -6.9285714285%;
+    margin-bottom: -6.9285714285%;
+    -o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+
+.hidden {
+	visibility: hidden !important;
+}
+
+.hexagon img{
+	width:85px;
+	height:85px;
+}
+
+.hexagon:hover {background-color: grey !important;}
+.hexagon:hover {color: black !important;}
+
+
+.list{
+	 font-size:15px;
+	 margin: 5px;
+	 margin-right: 50px;
+	 padding: 20px 20px;     
+}
+.list {
+	margin-left: -25px;
+}
+.dropbtn {
+    background-color: #61eac1;
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 120px;  
+    font-weight: bold;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute; 
+    text-decoration: underline;
+    font-weight: bold;
+    font-color: #61eac1;
+    padding-left: 0px;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {font-size: 15px;}
+
+body {
+    background-color: #61eac1;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align: right;
+	color: #bcf2e2;
+	text-shadow: left;
+	font-weight: bold;
+	margin-top: 0px;
+    margin-right: 10px;
+	text-shadow: 2px 2px black;
+		
+}
+h2{
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+h3{
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: black;
+    size: 15px;
+}
